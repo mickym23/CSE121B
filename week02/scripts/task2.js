@@ -28,13 +28,13 @@ document.querySelector('#photo').setAttribute('src', 'images/book.jfif');
 /* ARRAYS */
 
 // Step 1: declare and instantiate an array variable to hold your favorite foods
-let foods = ['pizza', ' pasta', ' seafood'];
+let foods = ['pizza', 'pasta', 'seafood'];
 
 // Step 2: place the values of the favorite foods variable into the HTML file
 document.getElementById('food').innerHTML = foods;
 
 // Step 3: declare and instantiate a variable to hold another favorite food
-let steak = ' steak';
+let steak = 'steak';
 
 // Step 4: add the variable holding another favorite food to the favorite food array
 foods.push(steak);
