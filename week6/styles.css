@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&display=swap');
+
+
+html, body {
+   font-family: "Noto Serif Dispaly", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   box-sizing: border-box;
+   margin: 0 auto;
+   padding: 0;
+   max-width: 100%;
+}
+
+.image {
+   width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+   padding: 0%;
+   width: 100%;
+}
+
+.header {
+   text-align: center;
+   border: 3px double black;
+   width: 50%;
+   margin: 0 auto;
+   margin-top: 2%;
+}
+
+.inputs {
+   padding-top: 4%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+label {
+   display: inline-block;
+   width: 200px;
+ }
+ input {
+   padding: 5px 10px;
+ }
+
+ .inputs button[type=button] {
+    border: black 2px double;
+    background-color: crimson;
+    color: white;
+ }
